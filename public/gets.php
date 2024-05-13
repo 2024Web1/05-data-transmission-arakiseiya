@@ -12,6 +12,8 @@
     GETメソッドで送られてきた複数のデータを受け取る。<br>
         <?php
         echo "出席番号:" . $_GET['course'] . $_GET['class'] . $_GET['number'] . "、氏名:" . $_GET['name'];
+        echo '</br>';
+        var_dump($_GET);
         ?>
 </body>
 
