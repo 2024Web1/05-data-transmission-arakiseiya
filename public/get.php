@@ -9,9 +9,9 @@
 
 <body>
     <h4>0J03002 荒木星矢</h4>
-    <p>GETメソッドで送られてきたパラメータ名dataの値は、
+    GETメソッドで送られてきた複数のデータを受け取る。<br>
         <?php
-        echo $_GET['data'] . " です。</p>";
+        echo "出席番号:" . $_GET['course'] . $_GET['class'] . $_GET['number'] . "、氏名:" . $_GET['name'];
         ?>
 </body>
 
